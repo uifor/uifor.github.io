@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!-- saved from url=(0022)http://barntarnst.com/ -->
 <html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms no-csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" style="">
 <!--<![endif]-->
@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Barnt &amp; Arnst</title>
+<title>Uifor—amor</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=520, maximum-scale=1.0">
 <meta name="keywords" content="Webbdesign, fotograf, Danderyd, Stockholm, Sweden, Web, design, webdesign, interactive, applications, iphone, php, css, html, photography, branding, advertisement, creative, agency, creative agency, marketing, online marketig, crowdsourcing, idea">
@@ -128,57 +128,5 @@
   <div style="clear: both;"></div>
 </div>
 <!-- #content ends -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="./js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-<script src="./Barnt & Arnst_files/jquery-1.9.1.min.js"></script>
-<!-- scripts concatenated and minified via ant build script-->
-<script src="./Barnt & Arnst_files/plugins.js"></script>
-<script src="./Barnt & Arnst_files/script.js"></script>
-<script>
-            baa.render();
-            $(document).ready(function() {
-                baa.init();
-                $('#contact-text').autoResize();
-
-                //Fetch tweets.
-                //"https://api.twitter.com/1/statuses/user_timeline.json?screen_name=barntarnst&include_rts=true&count=5&callback=?";
-                var twitterapi = "http://barntarnst.com/twittermirror/?s=barntarnst&count=6&callback=?";
-                var exp = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
-                var text = "";
-                var date = "";
-
-                $.getJSON(twitterapi, function(json) {
-                    $("#baa-tweets").html("");
-                    for (var key in json) {
-                        text = json[key].text;
-                        text = text.replace(exp,"<a href='$1'>$1</a>");
-                        date = new Date(json[key].created_at);
-                        $("#baa-tweets").append("<span class='twist small'>"+date.getDate()+"/"+(date.getMonth()+1)+" "+date.getFullYear()+"</span><br />"+text+"<br /><br />");
-                    }
-                    $(".twist").lettertwist(12);
-                });
-
-            });
-            $(window).resize(function() {
-                baa.render();
-            });
-            $(window).scroll(function() {
-                baa.scrolled($(document).scrollTop());
-            });
-
-            
-
-
-        </script>
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID.
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script> -->
-<arclones>
-  <textarea style="resize: none; overflow: hidden; line-height: 41px; text-decoration: none; letter-spacing: 0px; font-size: 20px; font-family: &#39;Andale Mono&#39;, &#39;PT Sans&#39;, tahoma, serif; font-style: normal; font-weight: 400; text-transform: none; text-align: start; direction: ltr; word-spacing: 0px; padding: 0px; width: 437px; position: absolute; top: -9999px; left: -9999px; opacity: 0; height: 0px;" class="ar1436432932912" tabindex="-1">Your message</textarea>
-</arclones>
 </body>
 </html>
