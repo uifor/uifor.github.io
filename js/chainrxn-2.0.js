@@ -269,7 +269,7 @@ var GameLevel = new Class({
 
   initialize: function(ballDetails, chainrxn){
     this.chainrxn = chainrxn;
-    this.chainrxn.ballField.setStyle("background-color"," #77C5F7");
+    this.chainrxn.ballField.setStyle("background-color"," transparent");
     this.bonusMaxCounter = this.bonusSpeed/this.checkInterval;
     this.doNotExplodeMaxCounter = this.doNotExplodeSpeed/this.checkInterval;
     if(this.chainrxn.ballField.getContext){
@@ -356,7 +356,7 @@ var GameLevel = new Class({
     var bonus = this.clearFieldBonusMultiplier*(this.chainrxn.levelNumber+1);
     this.score += bonus;
     this.chainrxn.ballField.set("morph", {"duration":500});
-    this.chainrxn.ballField.morph({"background-color":"rgb(119,197,247,0.05)"})
+    this.chainrxn.ballField.morph({"background-color":"transparent"})
     var coordinates = this.chainrxn.ballField.getCoordinates();
     var clearFieldBox = new Element("div", {"id":"clearFieldBox"}).inject(document.body);
     new Element("div",{"text":"Clear Field Bonus"}).inject(clearFieldBox);
@@ -369,7 +369,7 @@ var GameLevel = new Class({
 
   showWinBG: function(){
     this.chainrxn.ballField.set("morph", {"duration":1000});
-    this.chainrxn.ballField.morph({"background-color":"rgb(119,197,247,0.1)"})
+    this.chainrxn.ballField.morph({"background-color":"transparent"})
   },
 
   doLoser: function(){
