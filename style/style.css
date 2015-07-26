@@ -34,33 +34,6 @@ body{
 	font-family: "open-sans",sans-serif;
 }
 .clear{clear:left;}
-#menu{
-	width: 100%;
-	height: 31px;
-	margin: 0 auto;
-	line-height: 31px;
-	background-color: #e9662c;
-	font-family: "open-sans",sans-serif;
-	text-align: center;
-	letter-spacing: 1px;
-    -webkit-transition: all .50s ease;
-       -moz-transition: all .50s ease;
-        -ms-transition: all .50s ease;
-            transition: all .50s ease;
-    -webkit-transform-style: preserve-3d;
-       -moz-transform-style: preserve-3d;
-        -ms-transform-style: preserve-3d;
-            transform-style: preserve-3d;
-            transform-style: preserve-3d;
-
-}
-#menu:hover{
-	-webkit-transform: rotateX(-90deg);
-       -moz-transform: rotateX(-90deg);
-        -ms-transform: rotateX(-90deg);
-            transform: rotateX(-90deg);
-}
-#menu p{margin-left: 10px;}
 #logo{
 	width: 100%;
 	height: 40px;
@@ -69,7 +42,7 @@ body{
 	background-color: #2a3b4c;
 	font-family: "brandon-grotesque",sans-serif;
 }
-#logo h1{width: 17%;height: 40px;background-color: #2f4355;text-align: center;font-weight: bolder;font-family: "open-sans",sans-serif;float: left;}
+#logo h1{font-size: 25px; width: 17%;height: 40px;background-color: #2f4355;text-align: center;font-weight: bold;font-family: "open-sans",sans-serif;float: left;}
 .leftmenu{
 	width: 17%;
 	height: 600px;
