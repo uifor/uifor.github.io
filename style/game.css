@@ -3,14 +3,14 @@
    src:url('../font/opensans.ttf')
 } 
 body {
-	background: transparent;
+	background: #77C5F7;
 	color: #fff;
 	font-weight: bold;
 	font-family: "open-sans",sans-serif;
 	font-size: 12px;
 	-webkit-user-select: none;
 }
-.main{width: 98%;margin: 0 auto;background-color: transparent;}
+.main{width: 98%;margin: 0 auto;background-color: #77C5F7;}
 .uifor{
 	cursor: pointer;
 	text-decoration: underline;
