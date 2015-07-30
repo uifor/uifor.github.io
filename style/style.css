@@ -10,7 +10,7 @@
 body{
 	color: #fff;
 	font-size: 16px;
-	background: #fff;
+	background: #f0f2f5;
 	font-family: "open-sans",sans-serif;
 }
 div{
@@ -42,13 +42,82 @@ h1,h2,a{
 .logotz{
 	width: 23px;
 	height: 23px;
-	float: right;
-	margin-right: 25px;
-	margin-top: 10px;
+	float: left;
+	margin: 10px 0 0 10px;
 	line-height: 40px;
-	opacity: 0.83;
+	opacity: 0.75;
 	border-radius: 50px;
 }
+.admin{
+	float: right;
+	width: 80px;
+	height: 40px;
+	font-size: 14px;
+	margin-right: 55px;
+	position: relative;
+}
+.admin:hover{
+	cursor: pointer;
+	background-color: #495866;
+}
+.adminmenu{
+	position: absolute;
+	width: 80px;
+	height: 122px;
+	display: none;
+	overflow: hidden;
+	background-color: #fff;
+	box-shadow: 0 0 3px 1px #495866;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.adminmenu a{
+	text-decoration: none;
+	color: #495866;
+	width: 80px;
+	height: 30px;
+	display: block;
+	line-height: 30px;
+	background-color:#f0f2f5;}
+.adminmenu a:hover{background-color:#e74c3c;color: #fff; }
+.adminmenu li{
+	list-style: none;
+	width: 80px;
+	height: 30px;
+	border-bottom: 1px solid #fff;
+	text-align: center;}
+form{
+	float: left;
+	height: 40px;
+	padding: 0 5px 0 5px;
+	background-color: #495866;
+}
+.search-text{
+	float: left;
+	border: none;
+	color: #fff;
+	height: 40px;
+	line-height: 40px;
+	outline: none;
+	font-family: "open-sans",sans-serif;
+	background-color: transparent;
+}
+.search-button{
+	color: #fff;
+	border: none;
+	height: 40px;
+	outline: none;
+	line-height: 40px;
+	background-color: transparent;
+	float: left;
+	cursor: pointer;
+}
+.bar{
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+.ibar{margin-left: 10px;}
 /*横向导航结束*/
 
 /*纵向导航开始*/
@@ -56,7 +125,7 @@ h1,h2,a{
 	width: 15%;
 	height: 600px;
 	float: left;
-	margin-right: 10px;
+	margin-right: 5px;
 	background-color: #33485c;
 }
 .leftmenu ul{margin-top:50px; list-style: none;}
@@ -79,6 +148,7 @@ h1,h2,a{
 	cursor: pointer;
 }
 .leftmenu a:hover{
+	color:#33485c;
 	background-color: #e74c3c;
 }
 .itz{
@@ -86,16 +156,18 @@ h1,h2,a{
     float: right;
 	display: inline-block;
 }
+
 /*纵向导航结束*/
 
 /*内容开始*/
 .ico{
 	width: 98%;
 	margin: 0 auto;
+	margin-top: -3px;
 }
 .i1{
-	width: 84.9%;
-	height: 265px;
+	width: 85.33%;
+	height: 273px;
 	float: left;
 	background-color: #34bda1;
 }
@@ -106,7 +178,7 @@ h1,h2,a{
 	width: 98%;
 	height: 320px;
 	margin: 0 auto;
-	margin-top: 7px;
+	margin-top: 5px;
 }
 #content h1,.ico h1 {
 	font-size: 14px;
@@ -119,7 +191,7 @@ h1,h2,a{
 	letter-spacing: 1px;
 }
 #content h2,.ico h2{
-	font-size: 25px;
+	font-size: 23px;
 	float: left;
 	font-weight: normal;
 	line-height: 43px;
@@ -141,7 +213,7 @@ h1,h2,a{
 }
 .c2,.c3{
 	float: right;
-	width: 39%;
+	width: 39.8%;
 	height: 156px;
 	opacity:1;
 	text-decoration: none;
