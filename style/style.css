@@ -31,12 +31,12 @@ h1,h2,a{
 	background-color: #2a3b4c;
 }
 #logo h1{
-	font-size: 25px; 
+	font-size: 23px; 
 	width: 15%;
 	height: 40px;
 	background-color: #33485c;
 	text-align: center;
-	font-weight: bold;
+	font-weight: 100;
 	float: left;
 }
 .logotz{
@@ -148,7 +148,6 @@ form{
 	cursor: pointer;
 }
 .leftmenu a:hover{
-	color:#33485c;
 	background-color: #e74c3c;
 }
 .itz{
