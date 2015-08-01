@@ -34,7 +34,7 @@ h1,h2,a{
 	font-size: 23px; 
 	width: 15%;
 	height: 40px;
-	background-color: #33485c;
+	background-color: #2a3b4c;
 	text-align: center;
 	font-weight: 100;
 	float: left;
@@ -92,24 +92,19 @@ form{
 	padding: 0 5px 0 5px;
 	background-color: #495866;
 }
-.search-text{
+.search-text,.search-button{
 	float: left;
-	border: none;
-	color: #fff;
+	border:none;
 	height: 40px;
-	line-height: 40px;
 	outline: none;
-	font-family: "open-sans",sans-serif;
+	line-height: 40px;
+	color: #fff;
 	background-color: transparent;
 }
+.search-text{
+	font-family: "open-sans",sans-serif;
+}
 .search-button{
-	color: #fff;
-	border: none;
-	height: 40px;
-	outline: none;
-	line-height: 40px;
-	background-color: transparent;
-	float: left;
 	cursor: pointer;
 }
 .bar{
@@ -126,7 +121,7 @@ form{
 	height: 600px;
 	float: left;
 	margin-right: 5px;
-	background-color: #33485c;
+	background-color: #2a3b4c;
 }
 .leftmenu ul{margin-top:50px; list-style: none;}
 .leftmenu ul li{
