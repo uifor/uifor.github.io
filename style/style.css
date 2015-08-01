@@ -39,15 +39,6 @@ h1,h2,a{
 	font-weight: 100;
 	float: left;
 }
-.logotz{
-	width: 23px;
-	height: 23px;
-	float: left;
-	margin: 10px 0 0 10px;
-	line-height: 40px;
-	opacity: 0.75;
-	border-radius: 50px;
-}
 .admin{
 	float: right;
 	width: 80px;
@@ -55,6 +46,15 @@ h1,h2,a{
 	font-size: 14px;
 	margin-right: 55px;
 	position: relative;
+}
+.admintz{
+	width: 23px;
+	height: 23px;
+	float: left;
+	margin: 10px 0 0 10px;
+	line-height: 40px;
+	opacity: 0.75;
+	border-radius: 50px;
 }
 .admin:hover{
 	cursor: pointer;
@@ -89,7 +89,7 @@ h1,h2,a{
 form{
 	float: left;
 	height: 40px;
-	padding: 0 5px 0 5px;
+	padding: 0 5px 0 10px;
 	background-color: #495866;
 }
 .search-text,.search-button{
@@ -100,19 +100,11 @@ form{
 	line-height: 40px;
 	color: #fff;
 	background-color: transparent;
-}
-.search-text{
 	font-family: "open-sans",sans-serif;
 }
 .search-button{
 	cursor: pointer;
 }
-.bar{
-	width: 40px;
-	height: 40px;
-	float: left;
-}
-.ibar{margin-left: 10px;}
 /*横向导航结束*/
 
 /*纵向导航开始*/
@@ -154,17 +146,6 @@ form{
 /*纵向导航结束*/
 
 /*内容开始*/
-.ico{
-	width: 98%;
-	margin: 0 auto;
-	margin-top: -3px;
-}
-.i1{
-	width: 85.33%;
-	height: 273px;
-	float: left;
-	background-color: #34bda1;
-}
 #content{
 	width: 98%;
 	height: 320px;
@@ -217,6 +198,14 @@ form{
 	   -moz-transition: opacity 1s linear;
 		-ms-transition: opacity 1s linear;
 			transition: opacity 1s linear;
+}
+.c4{
+	width: 85.2%;
+	height: 273px;
+	float: left;
+	margin-top: 5px;
+	overflow: hidden;
+	background-color: #34bda1;
 }
 /*内容结束*/
 
