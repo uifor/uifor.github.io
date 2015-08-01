@@ -164,13 +164,6 @@ form{
 	height: 273px;
 	float: left;
 	background-color: #34bda1;
-    -moz-transition:ease 1s;
-	-o-transition:ease 1s;
-	-webkit-transition:ease 1s;
-	transition:ease 1s;
-}
-.i1:hover{
-	background-color: #5cb85c;
 }
 #content{
 	width: 98%;
@@ -200,7 +193,7 @@ form{
 	width: 45%;
 	height: 312px;
 	float: left;
-	background-color: rgba(83, 111, 13, 0.71);
+	background-color: rgba(7, 8, 3, 0.71);
 }
 .c2{
 	background-color: #77C5F7;
