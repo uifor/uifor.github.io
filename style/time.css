@@ -2,7 +2,7 @@
 /* CSS 定制的公共样式 */
 @font-face {
    font-family: 'open-sans';
-   src:url('../font/opensans.ttf')
+   src:url('../fonts/opensans.ttf')
 } 
 *{margin:0;padding:0;list-style-type:none;}
 a,img{border:0;}
@@ -23,5 +23,5 @@ a:hover{color:#333;}
 .course_nr li{ float:left; background:url(../images/ico10.png) no-repeat center top; padding-top:30px; width:140px; color: #fff; text-align:center; position:relative; margin-top:65px;}
 .shiji{ position:absolute; width:100%; left:0; top:-15px; display:none;}
 .shiji h1{ height:67px; line-height:67px; color:#33485c; font-weight:bold; background:url(../images/ico11.png) no-repeat center top; margin-bottom:8px;cursor: pointer;display: block;}
-.shiji p{ line-height:14px; color:#fff;}
+.shiji p{ line-height:14px; color:#fff;font-family: "open-sans",sans-serif;}
 
