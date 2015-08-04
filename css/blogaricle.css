@@ -1,0 +1,43 @@
+@font-face {
+   font-family: 'open-sans';
+   src:url('../fonts/RobotoSlabLight.woff')
+}
+.aricle{
+	width: 95%;
+	margin: 0 auto;
+	color: #A5A5A5;
+	font-family: "open-sans",sans-serif;
+}
+.ariclecon{
+	width: 100%;
+	float: left;
+	padding: 10px 0 0 10px;
+}
+.ariclecon h3{
+	font-size: 30px;
+	width: 98%;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	color: #666666;
+	text-indent: 20px;
+	border-bottom: 2px dashed #76D2C5;
+}
+.ariclecon p{
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	line-height: 25px;
+	text-indent: 20px;
+}
+.ariclecon img{
+	float: left;
+	width: 150px;
+	height: 120px;
+	margin: 10px 10px 10px 0;
+}
+.ariclecon .date{
+	margin: 10px 0 10px 0;
+	width: 98%;
+	text-align: right;
+	padding: 5px 0 5px 0;
+	border-top: 2px dashed #76D2C5;
+}

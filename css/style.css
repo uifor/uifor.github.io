@@ -1,0 +1,138 @@
+/*全局定义开始*/
+@font-face {
+   font-family: 'open-sans';
+   src:url('../fonts/RobotoSlabLight.woff')
+} 
+body{
+	/*background-color: #999999;*/
+	background-color: #fff;
+}
+div{overflow: hidden;}
+.main{
+	width: 80%;
+	margin:auto;
+	margin-bottom: 30px;
+	box-shadow: 0 0 10px 1px #A5A5A5;
+	background-color: #fff;
+}
+/*全局定义结束*/
+
+
+/*导航栏定义开始*/
+.menu{
+	width: 95%;
+	height: 170px;
+	color: #fff;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	position: relative;
+	text-align: center;
+	font-family: "open-sans",sans-serif;
+	background-color: #76D2C5;
+}
+.menu h1{
+	letter-spacing: 2px;
+	margin-top: 45px;
+	font-size: 38px;
+}
+.menu ul{
+	width: 100%;
+	height: 43px;
+	bottom: 0;
+	float: left;
+	letter-spacing: 1px;
+	position: absolute;
+	background-color: #91DBD1;
+}
+.menu ul li{
+	float: left;
+	height: 43px;
+	width: 100px;
+	text-align: center;
+	line-height: 43px;
+	margin-right: 15px;
+}
+.menu a{
+	color: #fff;
+	display: block;
+	width: 100px;
+	height: 43px;
+	text-decoration: none;
+}
+.menu a:hover{
+	color: #0a819c;
+	font-weight: bold;
+	text-decoration: underline;
+}
+form{
+	float: right;
+}
+.search-text,.search-button{
+	float: left;
+	border:none;
+	height: 40px;
+	outline: none;
+	line-height: 40px;
+	color: #fff;
+	background-color: transparent;
+	font-family: "open-sans",sans-serif;
+}
+.search-button{
+	cursor: pointer;
+}
+::-webkit-input-placeholder { 
+    color:#fff;
+}
+:-moz-placeholder { 
+    color:#fff;
+}
+::-moz-placeholder { 
+    color:#fff;
+}
+:-ms-input-placeholder { 
+    color:#fff;
+}
+/*导航栏定义结束*/
+
+
+/*内容定义开始*/
+.content{
+	width: 95%;
+	letter-spacing: 1.5px;
+	line-height: 28px;
+	font-family: "open-sans",sans-serif;
+	padding-bottom: 30px;
+	margin: 0 auto;
+}
+.content img{
+	float: left;
+	margin-right: 10px;
+	border:1px solid #EEEEEE;
+	padding: 5px;
+}
+.content h2{
+	font-size: 25px;
+	letter-spacing: normal;
+	margin-top: 30px;
+	line-height: 25px;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	font-weight: normal;
+	border-bottom: 1px solid #EEEEEE;
+}
+.content .about{
+	float: right;
+	font-weight: bold;
+	color: #A5A5A5;
+	width: 30%;
+	font-size: 18px;
+	text-indent: 20px;
+	margin: 10px 10px 10px 10px;
+}
+/*内容定义结束*/
+
+/*结尾定义开始*/
+.foot{
+	font-family: "open-sans",sans-serif;
+}
+/*结尾定义结束*/
